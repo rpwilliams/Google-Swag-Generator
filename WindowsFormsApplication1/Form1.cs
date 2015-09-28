@@ -59,191 +59,190 @@ namespace WindowsFormsApplication1
         /// </summary>
         public void randomSwag()
         {
-            Random r = new Random();
-            int prizeNum = r.Next(1, 9);
-            tryNext = false;
-            //use switch statement, check if 0. If it is, break. If it isn't does the case.
+            
+            bool b= false;
 
+            do
+            {
+                Random r = new Random();
+                int prizeNum = r.Next(1, 9);
 
-            switch (prizeNum)
-            {
-                case 0:
-                case 1:
-                    if (_frisbees == 0) break;
-                    uxButton.Text = "You won a chrome frisbee!";
-                    uxPicture.Image = WindowsFormsApplication1.Properties.Resources.chromeFrisbee;
-                    _frisbees--;
-                    uxFrisbees.Text = _frisbees.ToString();
-                    break;
-                case 2:
-                    if (_hats == 0) break;
-                    uxButton.Text = "You won a Google hat!";
-                    uxPicture.Image = WindowsFormsApplication1.Properties.Resources.Googlehat2;
-                    _hats--;
-                    uxHats.Text = _hats.ToString();
-                    break;
-                case 3:
-                    if (_sunglasses == 0) break;
-                    uxButton.Text = "You won Google sunglasses!";
-                    uxPicture.Image = WindowsFormsApplication1.Properties.Resources.mscott_glasses;
-                    _sunglasses--;
-                    uxSunglasses.Text = _sunglasses.ToString();
-                    break;
-                case 4:
-                    if (_bottles == 0) break;
-                    uxButton.Text = "You won a water bottle!";
-                    uxPicture.Image = WindowsFormsApplication1.Properties.Resources.water;
-                    _bottles--;
-                    uxBottles.Text = _bottles.ToString();
-                    break;
-                case 5:
-                    if (_bags == 0) break;
-                    uxButton.Text = "You won a Google bag!";
-                    uxPicture.Image = WindowsFormsApplication1.Properties.Resources.Googlebags3;
-                    _bags--;
-                    uxBags.Text = _bags.ToString();
-                    break;
-                case 6:
-                    if (_blankets == 0) break;
-                    uxButton.Text = "You won a Google blanket!";
-                    uxPicture.Image = WindowsFormsApplication1.Properties.Resources.GoogleBlanket2;
-                    _blankets--;
-                    uxBlankets.Text = _blankets.ToString();
-                    break;
-                case 7:
-                    if (_shirts == 0) break;
-                    uxButton.Text = "You won a Google shirt!";
-                    uxPicture.Image = WindowsFormsApplication1.Properties.Resources.google_shirt;
-                    _shirts--;
-                    uxShirts.Text = _shirts.ToString();
-                    break;
-                case 8:
-                    if (_socks == 0) break;
-                    uxButton.Text = "YOU WON THE SOCKS!!!";
-                    uxPicture.Image = WindowsFormsApplication1.Properties.Resources.Mscott;
-                    _socks--;
-                    uxSocks.Text = _socks.ToString();
-                    break;
-                default:
-                    MessageBox.Show("Out of swag!");
-                    break;
-            }
-            /*
-            //Chrome frisbee. Amount: 5
-            if (((tryNext) || (prizeNum == 1)) && (!IsEmpty(_frisbees)))
-            {
-                uxButton.Text = "You won a chrome frisbee!";
-                uxPicture.Image = WindowsFormsApplication1.Properties.Resources.chromeFrisbee;
-                _frisbees--;
-                uxFrisbees.Text = _frisbees.ToString();
-                
-            }
-           
-            else
-            {
-                tryNext = true;
-            }
+                switch (prizeNum)
+                {
+                    case 1:
+                        if (_frisbees == 0)
+                        {
+                            b = true;
+                            break;
+                        }
+                        else
+                        {
+                            b = false;
+                            _frisbees--;
+                            uxPicture.Show();
+                            uxButton.Text = "You won a chrome frisbee!";
+                            uxPicture.Image = WindowsFormsApplication1.Properties.Resources.chromeFrisbee;
+                            uxFrisbees.Text = _frisbees.ToString();
 
-            //Google hat. Amount: 2
-            if (((tryNext) || (prizeNum == 2)) && (!IsEmpty(_hats)))
-            {
-                uxButton.Text = "You won a Google hat!";
-                uxPicture.Image = WindowsFormsApplication1.Properties.Resources.Googlehat2;
-                _hats--;
-                uxHats.Text = _hats.ToString();
-                
-            }
+                            uxPicture2.Hide();
+                            uxReturn.Show();
+                            uxRichText.Hide();
+                            uxButton.Enabled = false;
+                            break;
+                        }
+                    case 2:
+                        if (_hats == 0)
+                        {
+                            b = true;
+                            break;
+                        }
+                        else
+                        {
+                            b = false;
+                            _hats--;
+                            uxPicture.Show();
+                            uxButton.Text = "You won a Google hat!";
+                            uxPicture.Image = WindowsFormsApplication1.Properties.Resources.Googlehat2;
+                            uxHats.Text = _hats.ToString();
 
-            else
-            {
-                tryNext = true;
-            }
+                            uxPicture2.Hide();
+                            uxReturn.Show();
+                            uxRichText.Hide();
+                            uxButton.Enabled = false;
+                            break;
+                        }
+                    case 3:
+                        if (_sunglasses == 0)
+                        {
+                            b = true;
+                            break;
+                        }
+                        else
+                        {
+                            b = false;
+                            uxButton.Text = "You won Google sunglasses!";
+                            uxPicture.Show();
+                            uxPicture.Image = WindowsFormsApplication1.Properties.Resources.mscott_glasses;
+                            _sunglasses--;
+                            uxSunglasses.Text = _sunglasses.ToString();
 
+                            uxPicture2.Hide();
+                            uxReturn.Show();
+                            uxRichText.Hide();
+                            uxButton.Enabled = false;
+                            break;
+                        }
+                    case 4:
+                        if (_bottles == 0)
+                        {
+                            b = true;
+                            break;
+                        }
+                        else
+                        {
+                            b = false;
+                            uxButton.Text = "You won a water bottle!";
+                            uxPicture.Show();
+                            uxPicture.Image = WindowsFormsApplication1.Properties.Resources.water;
+                            _bottles--;
+                            uxBottles.Text = _bottles.ToString();
 
-            //Google sunglasses. Amount: 25
-            if (((tryNext) || (prizeNum == 3)) && (!IsEmpty(_sunglasses)))
-            {
-                uxButton.Text = "You won Google sunglasses!";
-                uxPicture.Image = WindowsFormsApplication1.Properties.Resources.mscott_glasses;
-                _sunglasses--;
-                uxSunglasses.Text = _sunglasses.ToString();
-                
-            }
-            else
-            {
-                tryNext = true;
-            }
+                            uxPicture2.Hide();
+                            uxReturn.Show();
+                            uxRichText.Hide();
+                            uxButton.Enabled = false;
+                            break;
+                        }
+                    case 5:
+                        if (_bags == 0)
+                        {
+                            b = true;
+                            break;
+                        }
+                        else
+                        {
+                            b = false;
+                            uxButton.Text = "You won a Google bag!";
+                            uxPicture.Show();
+                            uxPicture.Image = WindowsFormsApplication1.Properties.Resources.Googlebags3;
+                            _bags--;
+                            uxBags.Text = _bags.ToString();
 
-            //Google water bottle. Amount: 1
-            if (((tryNext) || (prizeNum == 4)) && (!IsEmpty(_bottles)))
-            {
-                uxButton.Text = "You won a water bottle!";
-                uxPicture.Image = WindowsFormsApplication1.Properties.Resources.water;
-                _bottles--;
-                uxBottles.Text = _bottles.ToString();
-            }
-            else
-            {
-                tryNext = true;
-            }
+                            uxPicture2.Hide();
+                            uxReturn.Show();
+                            uxRichText.Hide();
+                            uxButton.Enabled = false;
+                            break;
+                        }
+                    case 6:
+                        if (_blankets == 0)
+                        {
+                            b = true;
+                            break;
+                        }
+                        else
+                        {
+                            b = false;
+                            _blankets--;
+                            uxButton.Text = "You won a Google blanket!";
+                            uxPicture.Show();
+                            uxPicture.Image = WindowsFormsApplication1.Properties.Resources.GoogleBlanket2;
+                            uxBlankets.Text = _blankets.ToString();
 
-            //Google bag. Amount :20
-            if (((tryNext) || (prizeNum == 5)) && (!IsEmpty(_bags)))
-            {
-                uxButton.Text = "You won a Google bag!";
-                uxPicture.Image = WindowsFormsApplication1.Properties.Resources.Googlebags3;
-                _bags--;
-                uxBags.Text = _bags.ToString();
-                
-            }
-            else
-            {
-                tryNext = true;
-            }
+                            uxPicture2.Hide();
+                            uxReturn.Show();
+                            uxRichText.Hide();
+                            uxButton.Enabled = false;
+                            break;
+                        }
+                    case 7:
+                        if (_shirts == 0)
+                        {
+                            b = true;
+                            break;
+                        }
+                        else
+                        {
+                            b = false;
+                            _shirts--;
+                            uxButton.Text = "You won a Google shirt!";
+                            uxPicture.Show();
+                            uxPicture.Image = WindowsFormsApplication1.Properties.Resources.google_shirt;
+                            uxShirts.Text = _shirts.ToString();
 
-            //Google blanket. Amount: 1
-            if (((tryNext) || (prizeNum == 6)) && (!IsEmpty(_blankets)))
-            {
-                uxButton.Text = "You won a Google blanket!";
-                uxPicture.Image = WindowsFormsApplication1.Properties.Resources.GoogleBlanket2;
-                _blankets--;
-                uxBlankets.Text = _blankets.ToString();
-                
-            }
-            else
-            {
-                tryNext = true;
-            }
+                            uxPicture2.Hide();
+                            uxReturn.Show();
+                            uxRichText.Hide();
+                            uxButton.Enabled = false;
+                            break;
+                        }
+                    case 8:
+                        if (_socks == 0)
+                        {
+                            b = true;
+                            break;
+                        }
+                        else
+                        {
+                            b = false;
+                            _socks--;
+                            uxButton.Text = "YOU WON THE SOCKS!!!";
+                            uxPicture.Show();
+                            uxPicture.Image = WindowsFormsApplication1.Properties.Resources.Mscott;
+                            uxSocks.Text = _socks.ToString();
 
-            //Google shirt. Amount: 2.
-            if (((tryNext) || (prizeNum == 7)) && (!IsEmpty(_shirts)))
-            {
-                uxButton.Text = "You won a Google shirt!";
-                uxPicture.Image = WindowsFormsApplication1.Properties.Resources.google_shirt;
-                _shirts--;
-                uxShirts.Text = _shirts.ToString();
-               
-
-            }
-            else
-            {
-                tryNext = true;
-            }
-
-            //Google socks. Amount: 2.
-            if (((tryNext) || (prizeNum == 8)) && (!IsEmpty(_socks)))
-            {
-                uxButton.Text = "YOU WON THE SOCKS!!!";
-                uxPicture.Image = WindowsFormsApplication1.Properties.Resources.Mscott;
-                _socks--;
-                uxSocks.Text = _socks.ToString();
-                
-            }
-            else
-            {
-                tryNext = true;
-            }
-            */
+                            uxPicture2.Hide();
+                            uxReturn.Show();
+                            uxRichText.Hide();
+                            uxButton.Enabled = false;
+                            break;
+                        }
+                    default:
+                        b = false;
+                        MessageBox.Show("Out of swag!");
+                        break;
+                }
+            } while (b);
         }
 
 
@@ -255,11 +254,7 @@ namespace WindowsFormsApplication1
         public void button1_Click(object sender, EventArgs e)
         {
             randomSwag();
-            uxPicture2.Hide();
-            uxPicture.Show();
-            uxReturn.Show();
-            uxRichText.Hide();
-            uxButton.Enabled = false;
+            
         }
 
         /// <summary>
