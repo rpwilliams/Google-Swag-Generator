@@ -326,7 +326,7 @@
             this.uxRichText.Text = "Happy 17th birthday Google!\nHave a free cookie courtesy of the Google Club.  \nCli" +
     "ck the button to see what free Google swag \nyou will get! (1 per person please)\n" +
     "";
-            this.uxRichText.TextChanged += new System.EventHandler(this.uxRichText_TextChanged);
+
             // 
             // Form1
             // 
