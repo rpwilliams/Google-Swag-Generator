@@ -304,11 +304,15 @@
             // 
             // uxTextBox
             // 
-            this.uxTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
-            this.uxTextBox.Location = new System.Drawing.Point(0, 0);
+            this.uxTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.uxTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.uxTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uxTextBox.Location = new System.Drawing.Point(12, 727);
             this.uxTextBox.Name = "uxTextBox";
-            this.uxTextBox.Size = new System.Drawing.Size(100, 20);
+            this.uxTextBox.Size = new System.Drawing.Size(465, 13);
             this.uxTextBox.TabIndex = 22;
+            this.uxTextBox.Text = "Application developed by Ryan Williams, Kansas State University GSA. \r\nLast updat" +
+    "ed 9.27.2015";
             // 
             // uxRichText
             // 
@@ -326,7 +330,6 @@
             this.uxRichText.Text = "Happy 17th birthday Google!\nHave a free cookie courtesy of the Google Club.  \nCli" +
     "ck the button to see what free Google swag \nyou will get! (1 per person please)\n" +
     "";
-
             // 
             // Form1
             // 

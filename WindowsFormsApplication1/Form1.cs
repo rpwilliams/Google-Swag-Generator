@@ -1,4 +1,8 @@
-﻿using System;
+﻿/*
+* Form1.CS
+* Author: Ryan Williams
+*/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,7 +31,7 @@ namespace WindowsFormsApplication1
             Hiding();
             uxReturn.Hide();
             uxPicture2.Image = WindowsFormsApplication1.Properties.Resources.google_animated;
-            uxTextBox.Hide();
+
 
             _frisbees = Convert.ToInt32(uxFrisbees.Text);
             _hats = Convert.ToInt32(uxHats.Text);
