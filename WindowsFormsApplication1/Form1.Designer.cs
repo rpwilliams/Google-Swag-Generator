@@ -60,11 +60,11 @@
             // 
             this.uxButton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.uxButton.BackColor = System.Drawing.SystemColors.Highlight;
-            this.uxButton.Font = new System.Drawing.Font("Rockwell", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uxButton.Font = new System.Drawing.Font("Rockwell", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.uxButton.ForeColor = System.Drawing.Color.White;
-            this.uxButton.Location = new System.Drawing.Point(456, 532);
+            this.uxButton.Location = new System.Drawing.Point(70, 394);
             this.uxButton.Name = "uxButton";
-            this.uxButton.Size = new System.Drawing.Size(566, 190);
+            this.uxButton.Size = new System.Drawing.Size(466, 155);
             this.uxButton.TabIndex = 0;
             this.uxButton.Text = "PRESS HERE FOR SWAG";
             this.uxButton.UseVisualStyleBackColor = false;
@@ -73,7 +73,7 @@
             // uxOptions
             // 
             this.uxOptions.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.uxOptions.Location = new System.Drawing.Point(1403, 12);
+            this.uxOptions.Location = new System.Drawing.Point(621, 16);
             this.uxOptions.Name = "uxOptions";
             this.uxOptions.Size = new System.Drawing.Size(54, 23);
             this.uxOptions.TabIndex = 2;
@@ -84,7 +84,7 @@
             // uxFrisbees
             // 
             this.uxFrisbees.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.uxFrisbees.Location = new System.Drawing.Point(1404, 40);
+            this.uxFrisbees.Location = new System.Drawing.Point(622, 44);
             this.uxFrisbees.Name = "uxFrisbees";
             this.uxFrisbees.Size = new System.Drawing.Size(53, 20);
             this.uxFrisbees.TabIndex = 3;
@@ -94,7 +94,7 @@
             // uxHats
             // 
             this.uxHats.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.uxHats.Location = new System.Drawing.Point(1404, 66);
+            this.uxHats.Location = new System.Drawing.Point(622, 70);
             this.uxHats.Name = "uxHats";
             this.uxHats.Size = new System.Drawing.Size(53, 20);
             this.uxHats.TabIndex = 4;
@@ -104,7 +104,7 @@
             // uxSunglasses
             // 
             this.uxSunglasses.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.uxSunglasses.Location = new System.Drawing.Point(1404, 92);
+            this.uxSunglasses.Location = new System.Drawing.Point(622, 96);
             this.uxSunglasses.Name = "uxSunglasses";
             this.uxSunglasses.Size = new System.Drawing.Size(53, 20);
             this.uxSunglasses.TabIndex = 5;
@@ -114,7 +114,7 @@
             // uxBottles
             // 
             this.uxBottles.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.uxBottles.Location = new System.Drawing.Point(1404, 118);
+            this.uxBottles.Location = new System.Drawing.Point(622, 122);
             this.uxBottles.Name = "uxBottles";
             this.uxBottles.Size = new System.Drawing.Size(53, 20);
             this.uxBottles.TabIndex = 6;
@@ -124,7 +124,7 @@
             // uxBags
             // 
             this.uxBags.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.uxBags.Location = new System.Drawing.Point(1404, 144);
+            this.uxBags.Location = new System.Drawing.Point(622, 148);
             this.uxBags.Name = "uxBags";
             this.uxBags.Size = new System.Drawing.Size(53, 20);
             this.uxBags.TabIndex = 7;
@@ -134,7 +134,7 @@
             // uxBlankets
             // 
             this.uxBlankets.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.uxBlankets.Location = new System.Drawing.Point(1404, 170);
+            this.uxBlankets.Location = new System.Drawing.Point(622, 174);
             this.uxBlankets.Name = "uxBlankets";
             this.uxBlankets.Size = new System.Drawing.Size(53, 20);
             this.uxBlankets.TabIndex = 8;
@@ -144,7 +144,7 @@
             // uxShirts
             // 
             this.uxShirts.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.uxShirts.Location = new System.Drawing.Point(1404, 196);
+            this.uxShirts.Location = new System.Drawing.Point(622, 200);
             this.uxShirts.Name = "uxShirts";
             this.uxShirts.Size = new System.Drawing.Size(53, 20);
             this.uxShirts.TabIndex = 9;
@@ -154,9 +154,9 @@
             // uxUpdate
             // 
             this.uxUpdate.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.uxUpdate.Location = new System.Drawing.Point(1366, 248);
+            this.uxUpdate.Location = new System.Drawing.Point(606, 252);
             this.uxUpdate.Name = "uxUpdate";
-            this.uxUpdate.Size = new System.Drawing.Size(68, 30);
+            this.uxUpdate.Size = new System.Drawing.Size(69, 35);
             this.uxUpdate.TabIndex = 10;
             this.uxUpdate.Text = "UPDATE";
             this.uxUpdate.UseVisualStyleBackColor = true;
@@ -167,7 +167,7 @@
             // 
             this.uxFrisbeeText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.uxFrisbeeText.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.uxFrisbeeText.Location = new System.Drawing.Point(1323, 40);
+            this.uxFrisbeeText.Location = new System.Drawing.Point(549, 44);
             this.uxFrisbeeText.Name = "uxFrisbeeText";
             this.uxFrisbeeText.ReadOnly = true;
             this.uxFrisbeeText.Size = new System.Drawing.Size(68, 20);
@@ -179,7 +179,7 @@
             // 
             this.uxHatText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.uxHatText.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.uxHatText.Location = new System.Drawing.Point(1323, 66);
+            this.uxHatText.Location = new System.Drawing.Point(549, 70);
             this.uxHatText.Name = "uxHatText";
             this.uxHatText.ReadOnly = true;
             this.uxHatText.Size = new System.Drawing.Size(68, 20);
@@ -191,7 +191,7 @@
             // 
             this.uxSunglassesText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.uxSunglassesText.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.uxSunglassesText.Location = new System.Drawing.Point(1323, 92);
+            this.uxSunglassesText.Location = new System.Drawing.Point(549, 96);
             this.uxSunglassesText.Name = "uxSunglassesText";
             this.uxSunglassesText.ReadOnly = true;
             this.uxSunglassesText.Size = new System.Drawing.Size(68, 20);
@@ -203,7 +203,7 @@
             // 
             this.uxBottleText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.uxBottleText.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.uxBottleText.Location = new System.Drawing.Point(1323, 118);
+            this.uxBottleText.Location = new System.Drawing.Point(549, 122);
             this.uxBottleText.Name = "uxBottleText";
             this.uxBottleText.ReadOnly = true;
             this.uxBottleText.Size = new System.Drawing.Size(68, 20);
@@ -215,7 +215,7 @@
             // 
             this.uxBagText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.uxBagText.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.uxBagText.Location = new System.Drawing.Point(1323, 144);
+            this.uxBagText.Location = new System.Drawing.Point(549, 148);
             this.uxBagText.Name = "uxBagText";
             this.uxBagText.ReadOnly = true;
             this.uxBagText.Size = new System.Drawing.Size(68, 20);
@@ -227,7 +227,7 @@
             // 
             this.uxBlanketText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.uxBlanketText.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.uxBlanketText.Location = new System.Drawing.Point(1323, 170);
+            this.uxBlanketText.Location = new System.Drawing.Point(549, 174);
             this.uxBlanketText.Name = "uxBlanketText";
             this.uxBlanketText.ReadOnly = true;
             this.uxBlanketText.Size = new System.Drawing.Size(68, 20);
@@ -239,7 +239,7 @@
             // 
             this.uxShirtText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.uxShirtText.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.uxShirtText.Location = new System.Drawing.Point(1323, 196);
+            this.uxShirtText.Location = new System.Drawing.Point(549, 200);
             this.uxShirtText.Name = "uxShirtText";
             this.uxShirtText.ReadOnly = true;
             this.uxShirtText.Size = new System.Drawing.Size(68, 20);
@@ -250,10 +250,10 @@
             // uxReturn
             // 
             this.uxReturn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.uxReturn.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxReturn.Location = new System.Drawing.Point(252, 532);
+            this.uxReturn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.uxReturn.Location = new System.Drawing.Point(256, 555);
             this.uxReturn.Name = "uxReturn";
-            this.uxReturn.Size = new System.Drawing.Size(189, 190);
+            this.uxReturn.Size = new System.Drawing.Size(91, 70);
             this.uxReturn.TabIndex = 18;
             this.uxReturn.Text = "RETURN";
             this.uxReturn.UseVisualStyleBackColor = true;
@@ -262,7 +262,7 @@
             // uxSocks
             // 
             this.uxSocks.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.uxSocks.Location = new System.Drawing.Point(1404, 222);
+            this.uxSocks.Location = new System.Drawing.Point(622, 226);
             this.uxSocks.Name = "uxSocks";
             this.uxSocks.Size = new System.Drawing.Size(53, 20);
             this.uxSocks.TabIndex = 20;
@@ -273,7 +273,7 @@
             // 
             this.uxSocksText.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.uxSocksText.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.uxSocksText.Location = new System.Drawing.Point(1323, 222);
+            this.uxSocksText.Location = new System.Drawing.Point(549, 226);
             this.uxSocksText.Name = "uxSocksText";
             this.uxSocksText.ReadOnly = true;
             this.uxSocksText.Size = new System.Drawing.Size(68, 20);
@@ -285,9 +285,9 @@
             // 
             this.uxPicture2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.uxPicture2.InitialImage = global::WindowsFormsApplication1.Properties.Resources.bbday;
-            this.uxPicture2.Location = new System.Drawing.Point(252, 12);
+            this.uxPicture2.Location = new System.Drawing.Point(28, 16);
             this.uxPicture2.Name = "uxPicture2";
-            this.uxPicture2.Size = new System.Drawing.Size(923, 354);
+            this.uxPicture2.Size = new System.Drawing.Size(515, 230);
             this.uxPicture2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.uxPicture2.TabIndex = 19;
             this.uxPicture2.TabStop = false;
@@ -295,19 +295,20 @@
             // uxPicture
             // 
             this.uxPicture.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.uxPicture.Location = new System.Drawing.Point(252, 12);
+            this.uxPicture.Location = new System.Drawing.Point(28, 12);
             this.uxPicture.Name = "uxPicture";
-            this.uxPicture.Size = new System.Drawing.Size(937, 514);
+            this.uxPicture.Size = new System.Drawing.Size(507, 368);
             this.uxPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.uxPicture.TabIndex = 1;
             this.uxPicture.TabStop = false;
+            this.uxPicture.Click += new System.EventHandler(this.uxPicture_Click);
             // 
             // uxTextBox
             // 
             this.uxTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.uxTextBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.uxTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.uxTextBox.Location = new System.Drawing.Point(12, 727);
+            this.uxTextBox.Location = new System.Drawing.Point(70, 631);
             this.uxTextBox.Name = "uxTextBox";
             this.uxTextBox.Size = new System.Drawing.Size(465, 13);
             this.uxTextBox.TabIndex = 22;
@@ -321,11 +322,11 @@
             this.uxRichText.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.uxRichText.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.uxRichText.ForeColor = System.Drawing.Color.ForestGreen;
-            this.uxRichText.Location = new System.Drawing.Point(521, 377);
+            this.uxRichText.Location = new System.Drawing.Point(70, 251);
             this.uxRichText.Name = "uxRichText";
             this.uxRichText.ReadOnly = true;
             this.uxRichText.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.uxRichText.Size = new System.Drawing.Size(517, 129);
+            this.uxRichText.Size = new System.Drawing.Size(513, 129);
             this.uxRichText.TabIndex = 23;
             this.uxRichText.Text = "Happy 17th birthday Google!\nHave a free cookie courtesy of the Google Club.  \nCli" +
     "ck the button to see what free Google swag \nyou will get! (1 per person please)\n" +
@@ -336,7 +337,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(1471, 752);
+            this.ClientSize = new System.Drawing.Size(687, 656);
             this.Controls.Add(this.uxRichText);
             this.Controls.Add(this.uxTextBox);
             this.Controls.Add(this.uxSocksText);

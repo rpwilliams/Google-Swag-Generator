@@ -354,5 +354,10 @@ namespace WindowsFormsApplication1
             uxRichText.Show();
             uxButton.Enabled = true;
         }
+
+        private void uxPicture_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
